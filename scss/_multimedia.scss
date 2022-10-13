@@ -1,0 +1,147 @@
+.logo__header{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: -50px;
+    width: 123px;
+    height: 157px;
+    padding-top: 46px;
+    margin-bottom: 4px;
+    border: #f0f8ff;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+/* PRODUCTOS PC ARMADAS */
+.pub__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .publicacion1 {
+        width: 860px;
+        height: 775px;
+        background-color: #4a4a4a;
+        border-radius: 50px;
+        margin-top: 210px;
+        margin-bottom: 29px;
+    }
+
+    .publicacion2 {
+        width: 860px;
+        height: 775px;
+        background-color: #4a4a4a;
+        border-radius: 50px;
+        margin-bottom: 29px;
+    }
+
+    .publicacion3 {
+        width: 860px;
+        height: 775px;
+        background-color: #4a4a4a;
+        border-radius: 50px;
+    }
+
+    .publicacion4 {
+        width: 860px;
+        height: 775px;
+        background-color: #4a4a4a;
+        border-radius: 50px;
+        margin-top: 29px;
+        margin-bottom: 29px;
+    }
+    .publicacion5{
+        width: 860px;
+        height: 775px;
+        background-color: #4a4a4a;
+        border-radius: 50px;
+        margin-top: 29px;
+        margin-bottom: 29px;
+    }
+
+
+}
+
+/* BANNER */
+.flex__container{
+    display: grid;
+    justify-items: center;
+
+    .banner__inicio{
+        padding-top: 0px;
+        height: 305px;
+        display: grid;
+        grid-template-columns: 2fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.contenedor__marcas{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+
+    .marcas__image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 580px;
+        width: 90vw;
+        gap: 50px;
+        font-size: 15px;
+
+        .amd__image{
+            height: 620px;
+            width: 100vw;
+            border: 5px solid darkorange;
+            display: block;
+            margin-top: 50px;
+
+            p{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 30px;
+            }
+        }
+
+        .nvidia__image{
+            height: 620px;
+            width: 100vw;
+            border: 5px solid chartreuse;
+            margin-top: 310px;
+        }
+
+        .intel__image{
+            height: 620px;
+            width: 100vw;
+            border:5px solid blue;
+            margin-top: 410px;
+
+            p{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .gigabyte__image{
+            height: 620px;
+            width: 100vw;
+            border:5px solid red;
+            margin-top: 510px;
+        }
+    }
+}
+
+.logo__ayuda{
+    margin-top: 75px;
+    img{
+        border: solid 5px #D71AC1;
+        height: 656px ;
+        width: 100vw;
+    }
+}
+

@@ -1,320 +1,4 @@
-/* VISTA MOBILE (0 a 600) */
-
-/* CUERPO DE LA PAGINA */
-
-body{
-    background-color: #1d2b3a;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #f0f8ff;
-}
-
-/* ENCABEZADO */
-header{
-    border-bottom: #00dfc4 5px solid;
-}
-.logo__header{
-    display: flex;
-    flex-direction: row;
-
-    margin-top: -50px;
-    width: 123px;
-    height: 157px;
-    padding-top: 46px;
-    margin-bottom: 4px;
-    border: #f0f8ff;
-    border-radius: 20px;
-    margin-right: 40px;
-}
-
-
-.navbar-toggler{
-    background-color: #00dfc4;
-    color: #D71AC1;
-}
-
-.fondo__navcomponents {
-    color: #00dfc4;
-}
-.borde__navcomponents{
-    border-radius: 10px;
-    border-bottom: #00dfc4 2px double;
-}
-
-
-/* BANNER */
-.flex__container{
-    display: grid;
-    justify-content: center;
-}
-.banner__inicio{
-    padding-top: 0px;
-    height: 305px;
-    display: grid;
-    grid-template-columns: 2fr;
-    justify-items: center;
-    align-items: center;
-}
-
-
-
-/* NOMBRAR LAS AREAS */
-
-header{
-    grid-area: header;
-}
-.logo__header{
-    grid-area: logo;
-}
-nav{
-    grid-area: nav;
-}
-main{
-    grid-area: main;
-}
-.parrafo__inicio{
-    grid-area: parrafo__inicio;
-}
-.flex__container{
-    grid-area: flex__container;
-}
-.container{
-    grid-area: container;
-}
-.contenedor__ad{
-    grid-area: contenedor__ad;
-}
-.contenedor__marcas{
-    grid-area: contenedor__marcas;
-}
-footer{
-    grid-area: footer;
-}
-
-.contenedor{
-    display: grid;
-    grid-template-areas:
-        "header"
-        "logo"
-        "nav"
-        "main"
-        "parrafo"
-        "flex__container"
-        "container"
-        "contenedor__ad"
-        "contenedor__marcas"
-        "footer";
-}
-
-.posicion__mobile{
-    display: flex;
-    flex-direction: row;
-}
-.posicion__mobile h1{
-    color: #00dfc4;
-}
-.black{
-    background-color: #000;
-    
-}
-
-.flex__container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    
-}
-
-
-
-.container h1{
-    color: #D71AC1;
-}
-
-/* VIDEO PC GAMER */
-.v__multimedia{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-.card__fondo{
-    background-color: #00dfc4;
-    width: 805px;
-    height: 405px;
-    
-}
-
-.text__video{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #00dfc4;
-    margin-top: 70px;
-}
-.video{
-    width: 805px;
-    height: 405px;
-    margin: 0px;
-}
-
-/* PRODUCTOS PC ARMADAS */
-.pub__images{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.publicacion1 {
-    width: 860px;
-    height: 775px;
-    background-color: #4a4a4a;
-    border-radius: 50px;
-    margin-top: 210px;
-    margin-bottom: 29px;
-}
-.publicacion2 {
-    width: 860px;
-    height: 775px;
-    background-color: #4a4a4a;
-    border-radius: 50px;
-    margin-bottom: 29px;
-}
-.publicacion3 {
-    width: 860px;
-    height: 775px;
-    background-color: #4a4a4a;
-    border-radius: 50px;
-}
-.publicacion4 {
-    width: 860px;
-    height: 775px;
-    background-color: #4a4a4a;
-    border-radius: 50px;
-    margin-top: 29px;
-    margin-bottom: 29px;
-}
-.publicacion5{
-    width: 860px;
-    height: 775px;
-    background-color: #4a4a4a;
-    border-radius: 50px;
-    margin-top: 29px;
-    margin-bottom: 29px;
-}
-.gamer{
-    width: 530px;
-    height: 428px;
-    border-radius: 50px;
-}
-
-
-
-.promocion img{
-    width: 500px;
-    height: 350px;
-}
-.container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-
-}
-.container h2{
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    color: #00dfc4;
-}
-.container p{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contenedor__ad{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-}
-.subtitulo__h3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-    color: #00dfc4;
-}
-.contenedor__marcas{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-}
-.marcas__image{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    gap: 50px;
-    font-size: 20px;
-}
-.amd__image{
-    height: 650px;
-    width: 100vw;
-    border: 5px solid darkorange;
-    display: block;
-    margin-top: 50px;
-}
-.amd__image p{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
-.nvidia__image{
-    height: 650px;
-    width: 100vw;
-    border: 5px solid chartreuse;
-    margin-top: 20px;
-}
-.intel__image{
-    height: 650px;
-    width: 100vw;
-    border:5px solid blue;
-    margin-top: 20px;
-}
-.intel__image p{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.gigabyte__image{
-    height: 650px;
-    width: 100vw;
-    border:5px solid red;
-    margin-top: 20px;
-}
-footer{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    height: 200px;
-    width: 100vw;
-    margin-bottom: 0;
-    background-color: #000;
-    border-top: #D71AC1 5px solid;
-    
-}
-
-
-/* -----DISEÑO TABLET (600 a 768)----- */
-@media (min-width: 768px){
-
-}
-
-
-
-
-
-/* -----DISEÑO DESKTOP----- */
+// /* -----DISEÑO DESKTOP----- */
 
 @media (min-width: 992px){
     /* CUERPO DE LA PAGINA */
@@ -367,13 +51,12 @@ footer{
     
 
 
-
     /* NOMBRAR LAS AREAS */
 
     header{
         grid-area: header;
     }
-    .logo__header{
+     .logo__header{
         grid-area: logo;
     }
     nav{
@@ -381,13 +64,13 @@ footer{
     }
     main{
         grid-area: main;
-    }
+     }
     .parrafo__inicio{
         grid-area: parrafo__inicio;
-    }
+     }
     .flex__container{
         grid-area: flex__container;
-    }
+     }
     .container{
         grid-area: container;
     }
@@ -397,9 +80,12 @@ footer{
     .contenedor__marcas{
         grid-area: contenedor__marcas;
     }
+
+
     footer{
         grid-area: footer;
     }
+
 
     .contenedor{
         display: grid;
@@ -420,10 +106,14 @@ footer{
         display: flex;
         flex-direction: row;
     }
+
+     
     .posicion__mobile h3{
         color: #00dfc4;
         margin: 10px;
     }
+
+
     .black{
         background-color: #000;
     
@@ -453,6 +143,7 @@ footer{
         display: flex;
         flex-direction: row;
     }
+
     .card__fondo{
         background-color: #00dfc4;
         width: 805px;
@@ -471,6 +162,7 @@ footer{
         width: 805px;
         height: 405px;
     }
+
 
     /* PRODUCTOS PC ARMADAS */
     .pub__images{
@@ -529,7 +221,6 @@ footer{
         transform: scale(1.1);
         box-shadow: 0 0 1vw #000;
     }
-
     .promocion img{
         width: 500px;
         height: 350px;
@@ -541,6 +232,7 @@ footer{
         justify-items: center;
 
     }
+
     .container h2{
         display: flex;
         flex-direction: column;
@@ -572,6 +264,8 @@ footer{
         grid-template-rows: 1fr;
         justify-items: center;
     }
+
+
     .contenedor__marcas p{
         margin-top: 0;
         margin-bottom: 1rem;
@@ -580,58 +274,70 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
     }
+
+    
     .marcas__image{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 580px;
         width: 100vw;
         gap: 50px;
-        font-size: 15px;
+        font-size: 20px;
+        align-items: center;
     }
+
     .amd__image{
-        height: 336px;
-        width: 336px;
+        height: 450px;
+        width: 100vw;
         border: 5px solid darkorange;
         display: block;
         margin-top: 50px;
     }
+
     .amd__image p{
+
         display:flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 30px;
     }
+
+
     .nvidia__image{
-        height: 336px;
-        width: 336px;
+        height: 310px;
+        width: 100vw;
         border: 5px solid chartreuse;
         margin-top: 20px;
     }
+
+
     .intel__image{
-        height: 336px;
-        width: 336px;
+        height: 310px;
+        width: 100vw;
         border:5px solid blue;
         margin-top: 20px;
     }
+
+
     .intel__image p{
         display:flex;
         flex-direction: column;
         align-items: center;
     }
+
     .gigabyte__image{
-        height: 336px;
-        width: 336px;
+        height: 310px;
+        width: 100vw;
         border:5px solid red;
         margin-top: 20px;
     }
+
+
     footer{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         height: 200px;
         width: 100vw;
-        margin-bottom: 0;
+
         background-color: #000;
         border-top: #D71AC1 5px solid;
     }

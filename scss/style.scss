@@ -1,0 +1,178 @@
+/* VISTA MOBILE (0 a 600) */
+@import "generales";
+@import "media";
+@import "multimedia";
+@import "texto";
+
+/* ENCABEZADO */
+
+
+.navbar-toggler{
+    background-color: #00dfc4;
+    color: #D71AC1;
+}
+
+.fondo__navcomponents {
+    color: #00dfc4;
+}
+.borde__navcomponents{
+    border-radius: 10px;
+    border-bottom: #00dfc4 2px double;
+}
+
+
+
+/* NOMBRAR LAS AREAS */
+
+header{
+    grid-area: header;
+}
+.logo__header{
+    grid-area: logo;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+.parrafo__inicio{
+    grid-area: parrafo__inicio;
+}
+.flex__container{
+    grid-area: flex__container;
+}
+.container{
+    grid-area: container;
+}
+.contenedor__ad{
+    grid-area: contenedor__ad;
+}
+.contenedor__marcas{
+    grid-area: contenedor__marcas;
+}
+footer{
+    grid-area: footer;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas:
+        "header"
+        "logo"
+        "nav"
+        "main"
+        "parrafo"
+        "flex__container"
+        "container"
+        "contenedor__ad"
+        "contenedor__marcas"
+        "footer";
+}
+
+.posicion__mobile{
+    display: flex;
+    flex-direction: row;
+}
+.posicion__mobile h1{
+    color: #00dfc4;
+}
+.black{
+    background-color: #000;
+    
+}
+
+.flex__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+
+
+
+
+/* VIDEO PC GAMER */
+.v__multimedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.card__fondo{
+    background-color: #00dfc4;
+    width: 805px;
+    height: 405px;
+}
+
+.text__video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00dfc4;
+    margin-top: 70px;
+}
+.video{
+    width: 805px;
+    height: 405px;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+.gamer{
+    width: 530px;
+    height: 428px;
+    border-radius: 50px;
+}
+
+
+
+.promocion img{
+    width: 500px;
+    height: 350px;
+}
+
+.container h2{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    color: #00dfc4;
+}
+.container p{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor__ad{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.subtitulo__h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    color: #00dfc4;
+}
+.boton__enviar{
+    margin-bottom: 60px;
+}
+
+
+/* -----DISEÑO TABLET (600 a 768)----- */
+@media (min-width: 768px){
+    
+}
+
+
+
+
+
